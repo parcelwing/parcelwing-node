@@ -1,0 +1,49 @@
+# --- Dependencies ---
+node_modules
+.pnpm-debug.log*
+
+# --- TypeScript / Build Output ---
+dist
+lib
+out
+*.tsbuildinfo
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# --- Debug & Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# --- Testing ---
+coverage
+.nyc_output
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editors ---
+.visualstudio
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea
+*.swp
+*.swo
+
+# --- Infrastructure / Tooling ---
+.turbo
+.vercel
+.next
