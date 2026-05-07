@@ -17,6 +17,8 @@ npm install @parcelwing/node
 
 ## Quick start
 
+First you'll need an API Key. If you don't have one, sign up and create one at https://parcelwing.com/signup. It's free, with no CC required.
+
 ```ts
 import { ParcelWing } from "@parcelwing/node";
 
